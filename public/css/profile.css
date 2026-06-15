@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(#fff,#ffd6d6);
+    margin: 0;
+    text-align: center;
+    color: black;
+    overflow: scroll;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    margin: 0px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #ffcc00;
+}
+.header h2{
+    font-size: 24px;
+}
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container {
+    width: 400px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.profile-header {
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    margin-bottom: 10px;
+}
+.username {
+    font-size: 24px;
+    margin: 0;
+    color: #343a40;
+}
+.profile-info {
+    margin-top: 20px;
+    text-align: left;
+}
+.profile-info p {
+    margin: 5px 0;
+    color: #495057;
+}
+.profile-actions {
+    margin-top: 20px;
+}
+.login-button, .logout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+.login-button:hover, .logout-button:hover {
+    background-color: #0056b3;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #148df0;
+}
+
+.edit-profile-form {
+    margin-top: 20px;
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-profile-form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.edit-profile-form input {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-profile-form button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-profile-form button:hover {
+    background-color: #218838;
+}
+
+#cancel-edit {
+    background-color: #dc3545;
+}
+
+#cancel-edit:hover {
+    background-color: #c82333;
+}
