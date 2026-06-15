@@ -6,13 +6,13 @@ A full-stack **Quiz Application** built with **Node.js, Express, and Vanilla JS*
 
 ## 🚀 Features
 
-* 🔐 **User Authentication** – Signup & Signin system
-* 📝 **Quiz Management** – Create, Edit, and Delete quizzes
-* 🎮 **Quiz Attempt** – Take quizzes and get instant feedback
-* 📊 **Leaderboard** – Track top scorers across quizzes
-* 👤 **Profile System** – Manage user details and quiz history
-* 🛠 **Admin Controls** – Manage users, quizzes, and leaderboard
-* 🎨 **Responsive UI** – Clean design using HTML & CSS
+- 🔐 **User Authentication** – Signup & Signin system
+- 📝 **Quiz Management** – Create, Edit, and Delete quizzes
+- 🎮 **Quiz Attempt** – Take quizzes and get instant feedback
+- 📊 **Leaderboard** – Track top scorers across quizzes
+- 👤 **Profile System** – Manage user details and quiz history
+- 🛠 **Admin Controls** – Manage users, quizzes, and leaderboard
+- 🎨 **Responsive UI** – Clean design using HTML & CSS
 
 ---
 
@@ -67,10 +67,10 @@ QuizApplication-main/
 
 (Add screenshots of your app here)
 
-* Home Page
-* Quiz Attempt Page
-* Leaderboard
-* Profile Page
+- Home Page
+- Quiz Attempt Page
+- Leaderboard
+- Profile Page
 
 ---
 
@@ -93,5 +93,5 @@ This project is licensed under the **MIT License** – feel free to use and modi
 
 ## 👨‍💻 Author
 
-Developed by **S Pradeep** ✨
+Developed by **B Akshay** ✨
 If you like this project, consider giving it a ⭐ on GitHub and suggest some improvements!
